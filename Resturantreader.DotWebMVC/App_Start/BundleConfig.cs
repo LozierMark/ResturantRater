@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Resturantreader.DotWebMVC
+namespace Restaurantreader.DotWebMVC
 {
     public class BundleConfig
     {

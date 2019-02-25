@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace Resturantreader.DotWebMVC.Models
+namespace Restaurantreader.DotWebMVC.Models
 {
     public class IndexViewModel
     {

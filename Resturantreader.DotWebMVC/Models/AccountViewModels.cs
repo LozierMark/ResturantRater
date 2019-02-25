@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Resturantreader.DotWebMVC.Models
+namespace Restaurantreader.DotWebMVC.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

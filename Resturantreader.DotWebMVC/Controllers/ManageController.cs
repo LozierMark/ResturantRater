@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Resturantreader.DotWebMVC.Models;
+using Restaurantreader.DotWebMVC.Models;
 
-namespace Resturantreader.DotWebMVC.Controllers
+namespace Restaurantreader.DotWebMVC.Controllers
 {
     [Authorize]
     public class ManageController : Controller

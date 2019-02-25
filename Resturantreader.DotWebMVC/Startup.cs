@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(Resturantreader.DotWebMVC.Startup))]
-namespace Resturantreader.DotWebMVC
+[assembly: OwinStartupAttribute(typeof(Restaurantreader.DotWebMVC.Startup))]
+namespace Restaurantreader.DotWebMVC
 {
     public partial class Startup
     {

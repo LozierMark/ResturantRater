@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Resturantreader.DotWebMVC.Models;
+using Restaurantreader.DotWebMVC.Models;
 
-namespace Resturantreader.DotWebMVC
+namespace Restaurantreader.DotWebMVC
 {
     public partial class Startup
     {
