@@ -15,5 +15,10 @@ namespace Restaurantreader.DotWebMVC.Controllers
         {
             return View(db.Restaurants.ToList());
         }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
     }
 }
