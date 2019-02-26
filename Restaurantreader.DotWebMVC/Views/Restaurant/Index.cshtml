@@ -6,17 +6,19 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink{ "Create New", "Create"}
+    @Html.ActionLink( "Create New", "Create")
 </p> 
-<table <class="table">
+<table class="table">
            <tr>
                <th>
                    @Html.DisplayNameFor(model => model.Name)
                </th>
+               <th>
                @Html.DisplayNameFor(model => model.Address)
                </th>
+               <th>
                @Html.DisplayNameFor(model => model.Rating)
-               <tr>
+               </th>
 
         </tr>
         @foreach (var item in Model)
@@ -38,3 +40,4 @@
                    </td>
                </tr>
                   
+</table>
